@@ -51,4 +51,8 @@ variable "subnet_ids" {
   type = "list"
 }
 
-variable "parameter_group_family" {}
+variable "parameter_group_family" { 
+  default = "redis3.2"
+}
+
+variable "parameter_group" {}
